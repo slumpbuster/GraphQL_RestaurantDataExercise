@@ -24,6 +24,7 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 
 ## How to Run 
 - When the page is loaded in your browser, you will notice no default entries the following are the mutations one can use:
+
 mutation editRestaurant($id: Int = 2, $name: String = "OLDO") {
   editRestaurant(id: $id, name: $name) {
     name
